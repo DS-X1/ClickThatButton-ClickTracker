@@ -9,6 +9,3 @@ You need to install the "requests_html" package
 
 # Installation
 pip install requests-html
-
-Download the python file then run it. 
-It runs till it's terminated/stopped.
