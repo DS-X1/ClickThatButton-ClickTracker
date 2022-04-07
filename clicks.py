@@ -4,7 +4,7 @@ import time
 
 while True:
  
-#Start the Session, these three lines basically scour the site to get number of clickies :p
+#Start the Session, these three lines basically scour the site to get number of clicks
   session = HTMLSession()
   response = session.get('https://www.clickthatbutton.com/')
   clicks = response.html.find('#clicks-total-number', first=True)
